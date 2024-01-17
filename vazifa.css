@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.box{
+    width: 100%;
+    height: 40px;
+    background: #333;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #ddd;
+
+}
+.navbar{
+    width: 100%;
+    height: 70px;
+    background: #f1f1f1;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 10px;
+    gap: 40px;
+}
+.collection{
+    display: flex;
+    gap: 30px;
+    list-style: none;
+}
+.nav__link{
+    text-decoration: none;
+    color: #000;
+}
+.nav__link.active{
+    color: greenyellow;
+    text-decoration: underline;
+}
+.banner{
+    width: 100%;
+    height: 500px;
+    background: #ddd;
+}
+
+.banner{
+    width: 100%;
+    height: 700px;
+    line-height: 1.8;
+    padding: 150px 200px;
+    color: #fff;
+
+}
+
+
+.vazifa{
+    background: url(./BMW-Secondary-FMA-Homepage-Cookied-Tile-01-Desktop.avif) no-repeat center/cover;
+}
+
+.btn{
+    width: 150px;
+    height: 50px;
+    background: green;
+    margin-top: 20px;
+    border: none;
+}
+.banner p{
+    width: 500px;
+    
+}
+.pin{
+    text-align: center;
+    line-height: 2.1;
+
+}
+.sac{
+    text-align: center;
+}
+.dec{
+    margin-top: 150px;
+    margin-left: 600px;
+}
+.dev{
+    text-align: center;
+}
+.vip{
+    width: 150px;
+    height: 80px;
+    margin-left: 600px;
+    border: 1px solid green;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
+.frag{
+    background: url(./BMW-MY24-CustomerReport-Homepage-FMA-Desktop.avif) no-repeat center/cover;
+}
+.veb{
+    background: url(./BMW-MY24-X5-HP-Secondary-FMA-Desktop.avif)no-repeat center/cover;
+}
+.kok{
+    background: url(./BMW-MY23-X7-Secondary-FMA-Desktop.avif) no-repeat center/cover;
+}
+.giw{
+    background: url(./BMW-Secondary-FMA-Homepage-Tile-04-Desktop.avif) no-repeat center/cover;
+}
